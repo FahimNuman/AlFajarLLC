@@ -1,5 +1,3 @@
-
-
 const About = () => {
   return (
     <div className="bg-gray-100 max-padd-container py-16 ">
@@ -8,7 +6,9 @@ const About = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
           <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
-          <p className="text-lg">Start the conversation to establish good relationships and business.</p>
+          <p className="text-lg">
+            Start the conversation to establish good relationships and business.
+          </p>
         </div>
       </div>
 
@@ -16,8 +16,12 @@ const About = () => {
       <div className="container mx-auto py-10 px-5 lg:px-0 flex flex-col lg:flex-row gap-8">
         {/* Form Section */}
         <div className="bg-white shadow-md rounded-lg p-6 w-full lg:w-1/2">
-          <h2 className="text-2xl font-semibold text-teal-700 mb-4">Have a Question?</h2>
-          <p className="text-gray-600 mb-6">Fill in the form to start a conversation</p>
+          <h2 className="text-2xl font-semibold text-teal-700 mb-4">
+            Have a Question?
+          </h2>
+          <p className="text-gray-600 mb-6">
+            Fill in the form to start a conversation
+          </p>
           <form className="space-y-4">
             <div>
               <label className="block text-gray-700">Full Name</label>
@@ -67,31 +71,68 @@ const About = () => {
 
         {/* Contact Details */}
         <div className="bg-white shadow-md rounded-lg p-6 w-full lg:w-1/2">
-          <h2 className="text-2xl font-semibold text-teal-700 mb-4">Get In Touch</h2>
+          <h2 className="text-2xl font-semibold text-teal-700 mb-4">
+            Get In Touch
+          </h2>
           <div className="space-y-4">
             <div>
               <h3 className="font-semibold text-gray-800">Head Office</h3>
-              <p className="text-gray-600">198 Canal St, Ellenville, New York 12428</p>
+              <p className="text-gray-600">New York, United States 11377</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-800">Email Support</h3>
               <p className="text-gray-600">
-                <a href="mailto:tabrez@rsikdercorporation.com" className="text-teal-600 hover:underline">tabrez@rsikdercorporation.com</a>
+                <a
+                  href="mailto:mahabubulhaque2018@gmail.com"
+                  className="text-teal-600 hover:underline"
+                >
+                  mahabubulhaque2018@gmail.com
+                </a>
               </p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-800">Contact Us</h3>
-              <p className="text-gray-600">Phone: +1(631)-455-0077; 631-507-0024</p>
+              <p className="text-gray-600">Phone: +1 (347) 653-6082</p>
             </div>
           </div>
 
           <div className="mt-8">
-            <h3 className="text-xl font-semibold text-teal-700 mb-2">Follow Us</h3>
+            <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              Follow Us
+            </h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600"><i className="fab fa-facebook-f"></i> Facebook</a>
-              <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600"><i className="fab fa-pinterest-p"></i> Pinterest</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600"><i className="fab fa-twitter"></i> Twitter</a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-teal-600"><i className="fab fa-instagram"></i> Instagram</a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-teal-600"
+              >
+                <i className="fab fa-facebook-f"></i> Facebook
+              </a>
+              <a
+                href="https://pinterest.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-teal-600"
+              >
+                <i className="fab fa-pinterest-p"></i> Pinterest
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-teal-600"
+              >
+                <i className="fab fa-twitter"></i> Twitter
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-teal-600"
+              >
+                <i className="fab fa-instagram"></i> Instagram
+              </a>
             </div>
           </div>
         </div>
@@ -99,8 +140,13 @@ const About = () => {
 
       {/* Map Section */}
       <div className="bg-white py-10">
-        <h2 className="text-center text-2xl font-semibold text-teal-700 mb-6">Find Us on the Map</h2>
-        <p className="text-center text-gray-600 mb-4">Our location is conveniently situated to serve you better. Visit us or get directions using the map below.</p>
+        <h2 className="text-center text-2xl font-semibold text-teal-700 mb-6">
+          Find Us on the Map
+        </h2>
+        <p className="text-center text-gray-600 mb-4">
+          Our location is conveniently situated to serve you better. Visit us or
+          get directions using the map below.
+        </p>
         <div className="w-full max-w-4xl mx-auto">
           <iframe
             title="Google Map"

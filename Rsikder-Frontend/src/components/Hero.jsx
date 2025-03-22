@@ -1,5 +1,6 @@
 import { BsFire } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div className="max-padd-container bg-hero bg-cover bg-center bg-no-repeat h-[736px] w-full rounded-tr-3xl mt-6 relative overflow-hidden">
         <div className="relative max-w-[777px] top-48 animate-fadeInUp delay-200">
           <h5 className="flex items-center gap-x-2  text-red-500 medium-18 animate-bounce">
-            Rsikder Corporation <BsFire />
+          Alfajor LLC <BsFire />
           </h5>
           <h1 className="h1 capitalize max-w-[611px] animate-slideInLeft delay-300">
             Elevate Your Look With Every Click Shop Today
@@ -34,6 +35,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 

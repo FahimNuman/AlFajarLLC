@@ -37,7 +37,7 @@ const Header = () => {
         >
           <img src={logo} alt="Risikder Logo" className="h-5 w-auto" />
           <span className="font-medium text-gray-800 text-base">
-           Rsikder Corporation
+          Alfajor LLC
           </span>
         </Link>
 
@@ -60,8 +60,8 @@ const Header = () => {
   className="bold-24 flex-1 hidden xl:flex items-center justify-start"
   aria-label="Risikder Corporation Home"
 >
-  <img src={logo} alt="Risikder Logo" className="h-5 w-auto mr-2" />
-  <span className="text-red-500 font-medium text-base">Rsikder Corporation</span>
+  {/* <img src={logo} alt="Risikder Logo" className="h-5 w-auto mr-2" /> */}
+  <span className="text-red-500 font-medium text-base">Alfajor LLC</span>
 </Link>
 
         {/* Right-Side Icons */}

@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-2 px-4 bg-cyan-900 max-w-[1840px] border rounded-lg">
-      <div className="text-white text-lg font-bold">Rsikder Admin Panel</div>
+      <div className="text-white text-lg font-bold">Alfajor LLC Admin Panel</div>
       <div className="text-white text-2xl flex items-center">
         <div className="text-white text-lg font-bold mr-4">Super Admin</div>
         <button

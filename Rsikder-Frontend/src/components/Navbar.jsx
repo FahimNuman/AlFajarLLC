@@ -4,7 +4,7 @@ import { BsCollection } from "react-icons/bs";
 import { FaRegWindowClose } from "react-icons/fa";
 import { SiGooglehome, SiMaildotcom } from "react-icons/si";
 import { Link, NavLink } from "react-router-dom";
-import logo from "/src/assets/logo.png";
+// import logo from "/src/assets/logo.png";
 
 const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
   const navItems = [
@@ -26,7 +26,7 @@ const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
           <Link to={"/"} className="bold-24 flex-1 hidden xl:flex">
             <h4 className="text-red-500 flex justify-center items-center  w-auto px-2 relative">
               {/* Logo */}
-              <img
+              {/* <img
                 src={logo}
                 alt="Risikder Logo"
                 className="logo-img"
@@ -36,7 +36,7 @@ const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
                   marginRight: "8px",
                   display: "inline-block",
                 }}
-              />
+              /> */}
               {/* Text */}
               <span
                 className="corporation-text"
@@ -47,7 +47,7 @@ const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
                   display: "inline-block",
                 }}
               >
-                Rsikder Corporation
+                Alfajor LLC
               </span>
             </h4>
           </Link>

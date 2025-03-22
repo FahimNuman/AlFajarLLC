@@ -6,6 +6,6 @@ export default defineConfig({
   server: {
     port: 3001,
     host: true,
-    allowedHosts: ["admin.rsikdercorporation.com", "localhost"],
+    allowedHosts: ["admin.alfajor.com", "localhost"],
   },
 });

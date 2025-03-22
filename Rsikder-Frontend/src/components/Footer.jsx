@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaPinterest } from 'react-icons/fa';
-import logo from '/src/assets/logo.png'; 
+// import logo from '/src/assets/logo.png'; 
 
 
 const Footer = () => {
@@ -10,17 +10,17 @@ const Footer = () => {
                 {/* Logo & Company Description */}
                 <div className="flex-1 max-w-sm">
                 <h4 className="flex items-center mb-10 text-red-500">
-  <img 
+  {/* <img 
     src={logo} 
     alt="Risikder Logo" 
     className="logo-img mr-1" 
     style={{ height: '52px', width: 'auto' }}  
-  />
+  /> */}
   <span 
     className="corporation-text  text-gray-800 text-xl font-bold  " 
     style={{ fontSize: '1.40rem' }}
   >
-   Rsikder Corporation
+   Alfajor LLC
   </span>
 </h4>
 
@@ -102,7 +102,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="mt-8 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-700">
-                <p className="mb-4 sm:mb-0">&copy; 2024 RSikder Corporation Inc. All Rights Reserved.</p>
+                <p className="mb-4 sm:mb-0">&copy; 2024 Alfajor LLC. All Rights Reserved.</p>
                 <p>
                     Developed by{' '}
                     <a
