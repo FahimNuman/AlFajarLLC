@@ -26,7 +26,7 @@ export default function App() {
   useEffect(() => {
     const fetchStripeKey = async () => {
       try {
-        const { data } = await axios.get("https://api.alfajor.com/api/stripe/keys");
+        const { data } = await axios.get("https://api.alfajorllc.com/api/stripe/keys");
         if (data && data.publicKey) {
           setStripePromise(loadStripe(data.publicKey));
         }

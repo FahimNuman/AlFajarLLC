@@ -7,8 +7,8 @@ export default defineConfig({
     port: 3000,
     host: true,
     allowedHosts: [
-      "rsikdercorporation.com",
-      "www.rsikdercorporation.com",
+      "alfajorllc.com",
+      "www.alfajorllc.com",
       "localhost",
     ],
   },
