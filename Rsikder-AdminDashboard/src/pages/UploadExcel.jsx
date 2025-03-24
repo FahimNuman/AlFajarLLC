@@ -8,7 +8,7 @@ const UploadExcel = ({ token }) => { // Ensure token prop is received
   const [isUploading, setIsUploading] = useState(false);
   const [uploadMessage, setUploadMessage] = useState("");
 
-  const backend_url = "https://api.rsikdercorporation.com"; // Adjust as needed  VITE_BACKEND_URL=https://api.rsikdercorporation.com 
+  const backend_url = "https://api.alfajorllc.com"; // Adjust as needed  VITE_BACKEND_URL=https://api.rsikdercorporation.com 
 
   // Handle file selection
   const handleFileChange = (e) => {
